@@ -1,0 +1,54 @@
+```gitignore
+# ==========================
+# Python
+# ==========================
+backend/venv/
+backend/__pycache__/
+backend/**/*.py[cod]
+backend/.pytest_cache/
+backend/.mypy_cache/
+
+# Environment Variables
+backend/.env
+
+# Uploads & Exports
+backend/app/uploads/*
+!backend/app/uploads/.gitkeep
+
+backend/app/exports/*
+!backend/app/exports/.gitkeep
+
+# Logs
+*.log
+
+# ==========================
+# Node.js / React
+# ==========================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# Operating System
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Coverage
+# ==========================
+coverage/
+htmlcov/
+
+# ==========================
+# Misc
+# ==========================
+*.sqlite3
+*.db
+```
